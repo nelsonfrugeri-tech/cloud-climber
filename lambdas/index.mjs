@@ -4,7 +4,7 @@ export const handler = async(event) => {
     log(event)
 
     return {
-        statusCode: 200,
+        statusCode: 201,
         body: event,
     };
 };
